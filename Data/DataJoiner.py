@@ -14,14 +14,12 @@ for month in months:
     
     for page in pages:
         #current page of month's csv
-        
         currentcsv =  './MonthIntermediates/' + month + '2019-page-' + str(page) + '-table-1.csv' 
         
         # if we are on first page, create new dataframe
         if page == pages[0]: 
              #create dataframe with first page and do nothing else
             evenpage = pd.read_csv(currentcsv)
-        
         
         elif page == pages[1]:
             oddpage = pd.read_csv(currentcsv)

@@ -31,5 +31,8 @@ df2019.rename(columns = {'Municipality *':'Municipality','Warrants with Law Enfo
  'Issued Warrants For Month':'Issued Warrants','Served Warrants For Month':'Served Warrants',
  'Warrants Foreign Served For Month':'Warrants Foreign Served'},inplace = True)
 
+# Remove commas from large numbers
+df2019.replace(',','', regex=True, inplace=True)
+
 # export csv with final data
 df2019.to_csv('./Data/WarrantData2019.csv')
