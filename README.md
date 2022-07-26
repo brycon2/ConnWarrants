@@ -6,11 +6,16 @@ The inspiration for this little project came when I heard about an unsubstantiat
 
 ## Format of the Github
 
-The data folder contains all scripts and data related to this project. This folder has an accompanying README file that details what each script does. The analysis and results can be seen in [ConnWarrantAnalysis.ipynb](./ConnWarrantAnalysis.ipynb).
+The data folder contains all scripts and data related to this project. It also has an accompanying README file that details what each script does. The analysis and results can be seen in the current folder in [ConnWarrantAnalysis.ipynb](./ConnWarrantAnalysis.ipynb).
 
 ##
 
 To do list:
-1. Make one giant CSV with the population, demographics, and warrant data for each municipality
-2. Plot with geographic and temporal data
-3. See if there is any statistical relationship with town population data and warrant information
+1. Fix column names for race, ethnicity, and age   
+2. Visualize basic relationships between the different variables
+3. Plot with geographic and temporal data
+4. See if there is any statistical relationship with town population data and warrant information
+
+## Future Analysis
+
+Since there is data extending back for a significant number of years, the next steps are to look at how the data changes from year to year. 
